@@ -1,0 +1,85 @@
+.d1 span{
+    color: red;
+}
+ .d1 p:nth-of-type(odd){
+    background-color: green;
+}
+.d2 span{
+    color: red;
+}
+.d2 p:nth-of-type(odd){
+    background-color: yellow;
+}
+.d3 span{
+    color: red;
+}
+.d3 p:only-of-type{
+    background-color: aqua;
+}
+
+.d3 p:only-child{
+    background-color: saddlebrown;
+}
+
+.d4 input:optional{
+    background-color: red;
+}
+.d4 input:required{
+    background-color: green;
+}
+.d4 input:read-only{
+    background-color: blue;
+}
+/*
+.d4 input:read-write{
+    background-color: yellow;
+}
+*/
+.d5 :target{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+.main div{
+    display: none;
+}
+.main div:target{
+    display: block;
+    background-color: blue;
+    color: white;
+}
+
+
+.d6 p::first-line{
+    color: salmon;
+}
+.d6 p::first-letter{
+    color: gold;
+    font-size: 30px;
+}
+.d6 span::first-line{/*ata kaj korbe na..span tag a soudoclass kaj kore na*/
+    color: red;
+}
+.d6 .un::first-letter{
+    font-weight: bold;
+    font-size: 40px;
+    color: blue;
+}
+
+.d7 h1::before{
+    content: url(imogi.gif);
+    height: 5px;
+    width: 5px;
+}
+.d7 h1::after{
+    content: " HTML";
+}
+
+
+
+
+
+
+
+
+
